@@ -419,8 +419,8 @@ do
 			lists = {},
 		}, section) 
 	end
-	
-	function library:addPage(...)
+		
+	function library:Channel(...)
 	
 		local page = page.new(self, ...)
 		local button = page.button
